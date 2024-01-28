@@ -1,9 +1,9 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: flex; /*correct */
+  justify-content: space-between; /* correct*/
+  align-items: center; /*correct*/ 
 }
 
 .logo {
@@ -12,8 +12,8 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
-  flex: 0;
-  text-align: center;
+  flex: 0; /* wasnt needed */
+  text-align: center; /*wasnt need */
 
   
 }
@@ -23,12 +23,12 @@ ul {
   margin: 5px;
   display: flex;
   /* this removes the dots on the list items*/
-  list-style-type: none;
+  list-style-type: none; /*only needed margin 0, padding gap 8 px */
   
 }
 
 
-.left-links {
+.left-links { /*wasnt needed 4 left or right links */
   display: flex;
   flex: 1;
   justify-content: flex-start;
@@ -48,5 +48,7 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
   flex: 1;
-  margin: 4px;
+  margin: 4px; /*none of these were needed  */
 }
+
+/*oh well, its fibne  */
